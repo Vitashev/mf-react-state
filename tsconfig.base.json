@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@mf-react-state/shared/data-context": [
+        "libs/shared/data-context/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
